@@ -30,13 +30,19 @@ h1 {
     gap: 1rem;
 }
 
-.button {
+button {
     background: var(--linear-text-color);
     color: var(--text-color);
+    font-size: 1rem;
     border: none;
     padding: 1rem 2rem;
     border-radius: 50px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--text-hover);
+    color: var(--linear-text-color);
 }
 
 .schedule {
@@ -48,5 +54,5 @@ h1 {
 }
 
 .schedule:hover {
-    color: var(--text-color);
+    color: var(--text-hover);
 }
